@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mines Hack</title>
+</head>
+<body>
+    <div class="full-width-line"></div>
+    <div class="logo-container">
+        <a href="https://1wlreg.com/casino/play/1play_1play_mines" target="_blank">
+            <img src="images/1win.svg" alt="Logo" id="logo-1win">
+        </a>
+    </div>
+    <div class="language-selector">
+        <!-- Английский флаг по умолчанию -->
+        <img id="language-icon" src="flags/en.png" alt="Language">
+        <!-- Обновленный список языков -->
+        <div id="language-dropdown" class="hidden">
+            <img src="flags/en.png" alt="English" class="language-option" data-lang="en">
+            <img src="flags/ru.png" alt="Русский" class="language-option" data-lang="ru">
+            <img src="flags/ua.png" alt="Українська" class="language-option" data-lang="ua">
+            <img src="flags/uz.png" alt="O'zbekcha" class="language-option" data-lang="uz">
+        </div>
+    </div>
+    <div id="gradient-background"></div>
+    <div class="container">
+        <div id="status"></div>
+        <div id="signal-accuracy"></div>
+        <div id="game-field"></div>
+        <div class="arrow-container">
+            <button class="arrow-button" id="left-arrow">
+                <img src="images/minus.png">
+            </button>
+            <button id="flip"></button>
+            <button class="arrow-button" id="right-arrow">
+                <img src="images/plus.png">
+            </button>
+        </div>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="countdown"></div>
+    </div>
+
+    <!-- === БЛОК ДЛЯ ЛОАДЕРА === -->
+    <div id="loader-overlay" class="hidden">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <span id="loader-text"></span>
+        </div>
+    </div>
+    <!-- ======================= -->
+
+    <script src="script.js"></script>
+</body>
+</html>
